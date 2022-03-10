@@ -69,6 +69,19 @@ export default createSchema({
           type:'string',
         },
         {
+          title: 'Category',
+          name: 'Category',
+          type: 'string',
+          options: {
+            list: [
+              {title: 'Admin', value: 'admin'},
+              {title: 'User', value: 'user'},
+              {title: 'Verifier', value: 'verify'}
+            ],
+            layout: 'radio'
+          }
+        },
+        {
           name:'email',
           title:'Email',
           type:'string',
