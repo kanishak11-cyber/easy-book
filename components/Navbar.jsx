@@ -4,6 +4,8 @@ import { AiOutlineClose } from 'react-icons/ai'
 import { FaShoppingCart } from 'react-icons/fa'
 import book from '../assets/logo.svg'
 import Image from 'next/image'
+import Link from 'next/link'
+import Signin from './Signin'
 // import { Link } from "react-router-dom";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -50,14 +52,15 @@ const Navbar = () => {
               </div>{' '}
             </a>
 
-            <a
-              href="/signin"
+            <Link
+              // href="/signin"
+              to={<Signin/>}
               className="justify-center text-lg"
               // target={"_blank"}
               // rel="noopener noreferrer"
             >
               <div className="justify-items-center px-2">Login</div>
-            </a>
+            </Link>
           </div>
           <hr />
         </div>
@@ -103,14 +106,15 @@ const Navbar = () => {
                   </div>{' '}
                 </a>
 
-                <a
-                  href="/signin"
+               <Link 
+                  // to='/signin' 
+                  to={<Signin/>}
                   className="justify-center text-lg"
                   target={'_blank'}
                   rel="noopener noreferrer"
                 >
                   <div className="justify-items-center px-2">Login</div>
-                </a>
+                </Link>
               </div>
             </ul>
           )}
