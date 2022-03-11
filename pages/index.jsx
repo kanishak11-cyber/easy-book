@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Welcome from "../components/Welcome";
 
 
+
 export default function Home() {
   return (
     <div className="bg-grad">
@@ -12,6 +13,7 @@ export default function Home() {
       <Landing/>
       <Welcome/>
       <Footer/>
+      {/* <TicketCard/> */}
     </div>
   )
 }
