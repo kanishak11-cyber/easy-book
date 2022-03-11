@@ -1,0 +1,91 @@
+.back{
+    background-image: url("/src/components/background.jpg") ;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    height:100%;
+    width:100%;
+
+}
+.card{
+    position: absolute;
+width: 27em;
+height: 38em;
+background: #FFFFFF;
+box-shadow: 0px 9px 14px 4px rgba(231, 65, 65, 0.25);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 23px;
+}
+.name{
+    position: absolute;
+width: 27em;
+height: 4em;
+left: 0px;
+top: -8px;
+z-index: -1;
+background: #FD5757;
+border-radius: 23px 23px 0px 0px;
+}
+/* img{
+    position: absolute;
+width: 15rem;
+height: 15rem;
+left: 6em;
+top: 5em;
+} */
+.number{
+    position: absolute;
+    width: 5em;
+    height: 4em;
+    left: 11em;
+    top: 25em;
+    border-top: #000000 5px;
+}
+.number h1{
+   
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 70px;
+line-height: 50px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+.number h6{
+   
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #000000;
+}
+.date{
+    position: absolute;
+width: 11em;
+height: 66px;
+left: 2.2em;
+top: 17.68em;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 28px;
+line-height: 33px;
+text-align: center;
+
+color: #000000;
+}
+/* hr{
+    top:25em;
+    color: #000000;
+} */

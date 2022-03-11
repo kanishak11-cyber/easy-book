@@ -134,7 +134,12 @@ export default createSchema({
           title:'User Id',
           type:'reference',
           to:[{type:'user'}],
-        }
+        },
+        {
+          title: 'Launch Scheduled At',
+          name: 'launchAt',
+          type: 'datetime',
+        },
       ] 
     }
     
