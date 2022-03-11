@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Welcome from "../components/Welcome";
 
 
+
 export default function Home() {
   return (
     <div className="bg-grad">
@@ -10,6 +11,7 @@ export default function Home() {
       <hr className="w-[80vw] justify-center mx-36"/>
       <Welcome/>
       <Footer/>
+      {/* <TicketCard/> */}
     </div>
   )
 }
