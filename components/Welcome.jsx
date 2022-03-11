@@ -17,7 +17,7 @@ const Welcome = () => {
     })();
   }, []);
   return (
-    <div className="flex overflow-scroll">
+    <div className="flex ">
       {stateItem.map((st, index) => (
         <div key={index} >
         <div className="card">

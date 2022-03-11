@@ -52,15 +52,15 @@ const Navbar = () => {
               </div>{' '}
             </a>
 
-            <Link
-              // href="/signin"
-              to={<Signin/>}
+            <a
+              href="/signin"
+              // to={<Signin/>}
               className="justify-center text-lg"
-              // target={"_blank"}
-              // rel="noopener noreferrer"
+              target={"_blank"}
+              rel="noopener noreferrer"
             >
               <div className="justify-items-center px-2">Login</div>
-            </Link>
+            </a>
           </div>
           <hr />
         </div>
