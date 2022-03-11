@@ -177,14 +177,14 @@ body {
   height: 50px;
   padding: 0.4em 1.5em;
   font-size: 14px;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(10, 10, 10, 0.349);
   backdrop-filter: blur(10px);
   border-radius: 10px;
   transform: scale(0.9);
   color: white;
   border: 1px solid rgba(255, 255, 255, 0.164);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.144);
-  overflow: hidden;
+  overflow-y: scroll;
   transition: all 0.4s;
 }
 
@@ -198,4 +198,30 @@ body {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
+}
+
+/* corusuel */
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+/* background */
+.ex{
+  background: linear-gradient(288deg, #FFB6B9 0%, #FFB6B9 35%, #FAE3D9 calc(35% + 1px), #FAE3D9 45%, #BBDED6 calc(45% + 1px), #BBDED6 65%, #61C0BF calc(65% + 1px), #61C0BF 100%);
+}
+
+.eg{
+  background: radial-gradient(111% 111% at 74.29% -11%, #A93300 0%, #005570 100%), linear-gradient(127.43deg, #00D5C8 0%, #2200AA 100%);
+background-blend-mode: difference, normal;
 }

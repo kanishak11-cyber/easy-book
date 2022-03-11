@@ -8,12 +8,12 @@ import Book from "../components/Book"
 
 export default function Home() {
   return (
-    <div className="bg-grad">
+    <div className="">
       <Navbar/>
-      <hr className="w-[80vw] justify-center mx-36"/>
-      <Landing/>
-      <Book/>
-      {/* <Welcome/> */}
+  
+      {/* <Landing/> */}
+      {/* <Book/> */}
+      <Welcome/>
       <Footer/>
       {/* <TicketCard/> */}
     </div>

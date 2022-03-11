@@ -1,9 +1,12 @@
 import React from 'react'
-import '../styles/Ticket.module.css'
-
-function TicketCard() {
+import Navbar from '../../components/Navbar'
+import '../../styles/Ticket.module.css'
+const TicketCard = () => {
   return (
-    <div className=" back">
+      <div className=''>
+          <Navbar/>
+          <div className=" back">
+        
       <div className="card">
         <div className="w- absolute">easy book</div>
         <img src="https://chart.apis.google.com/chart?cht=qr&chs=500x500&chl=Hello&choe=UTF-8" />
@@ -15,6 +18,8 @@ function TicketCard() {
         <div className="date">Friday, 11 March, 2022 Booking ID - TZAZB8C</div>
       </div>
     </div>
+      </div>
+    
   )
 }
 
