@@ -172,11 +172,8 @@ body {
 }
 .content {
   position: absolute;
-
   width: 100%;
-
   bottom: 0;
-
   height: 50px;
   padding: 0.4em 1.5em;
   font-size: 14px;
@@ -196,4 +193,9 @@ body {
 }
 .card:hover .content {
   height: 150px;
+}
+.flex{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
