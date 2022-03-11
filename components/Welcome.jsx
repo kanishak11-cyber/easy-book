@@ -2,7 +2,7 @@ import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 // import up from "../assets/up.jpg";
-import Heritage from "./Heritage";
+
 const Welcome = () => {
   const [stateItem, setStateItem] = useState([]);
   useEffect(() => {
@@ -22,7 +22,7 @@ const Welcome = () => {
         <div key={index} >
         <div className="card">
             <Image src={st.placeImage} alt=""  layout='fill'/>
-            <div className="content"> <h2>{st.placeName}</h2>
+            <div className="content"> <h2 className="text-xl">{st.placeName}</h2>
                 <p>{st.placeDescription}</p>
             </div>
             </div>
