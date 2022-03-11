@@ -17,7 +17,7 @@ const Book = () => {
 
     return (
         <div className="flex ">
-          {stateItem.map((st, index) => (
+        {stateItem.map((st, index) => (
             <div key={index} >
             <div className="card">
                 <Image src={st.placeImage} alt=""  layout='fill'/>
@@ -27,10 +27,10 @@ const Book = () => {
                 </div>
     
             </div>
-          ))}
-         
+        ))}
+        
         </div>
-      );
+    );
     };
     
     export default Book;
