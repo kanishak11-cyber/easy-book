@@ -33,7 +33,7 @@ const Welcome = () => {
           </div>
           <div className='justify-between text-center text-white'>
             <button className='text-lg bg-yellow-400 animate-none px-3 mx-1 my-3 rounded-xl hover:bg-yellow-600' onClick={()=>{<About/>}}>About</button>
-            <Link href='/ticket/TicketCard'>
+            <Link href='/cart/Cart'>
               <button className='text-lg bg-green-400 animate-none px-3 mx-1 my-3 rounded-xl hover:bg-green-600' >buy ticket</button>
 
               </Link>
